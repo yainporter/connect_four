@@ -13,7 +13,7 @@ RSpec.describe Game do
     it 'prints out a welcome messsage' do
       game = Game.new
 
-      expect(game.welcome_message).to eq("Hello!\n Welcome to Connect Four!")
+      expect(game.welcome_message).to eq(    "Hello!\nWelcome to Yain's Connect Four! (:")
     end
   end
 
