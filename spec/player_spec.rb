@@ -1,5 +1,4 @@
-require './lib/game'
-require './lib/player'
+require './spec_helper'
 
 RSpec.describe Player do
   def '#intialize' do
