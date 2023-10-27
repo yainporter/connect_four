@@ -1,8 +1,7 @@
-require './lib/game'
-require './lib/player'
+require 'spec_helper'
 
 RSpec.describe Player do
-  def '#intialize' do
+  describe '#intialize' do
     it 'has @name and @turn' do
       player = Player.new("Yain")
 
@@ -11,7 +10,7 @@ RSpec.describe Player do
     end
   end
 
-  def '#take_turn' do
+  describe '#take_turn' do
     it 'allows the player to take a turn and keeps track of @turn' do
       player = Player.new("Yain")
       player.take_turn
